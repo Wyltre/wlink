@@ -21,7 +21,7 @@ chrome://extensions adresine gidin
 
 🚀 Kullanım
 
-Uzantı penceresini açın
+Uzantı penceresini açın ( Ctrl + Shift + E )
 URL'yi giriş alanına yapıştırın veya yazın
 "Ekle" butonuna tıklayın veya Enter'a basın
 Bağlantılarınızı tek tıkla açın
