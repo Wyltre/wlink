@@ -148,6 +148,13 @@ li a {
   gap: 0.8rem;
 }
 
+.favicon {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+  margin-right: 0.8rem; 
+}
+
 li a:hover {
   color: var(--primary-color);
 }
@@ -185,7 +192,7 @@ li a:hover {
   font-size: 0.9rem;
 }
 
-/* Animations */
+
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(10px); }
   to { opacity: 1; transform: translateY(0); }

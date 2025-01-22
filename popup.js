@@ -9,8 +9,6 @@ document.addEventListener('DOMContentLoaded', () => {
     linkInput.addEventListener('keypress', (e) => {
       if (e.key === 'Enter') addLink();
     });
-  
-  // ... diğer kodlar aynı
 
 function addLink() {
     let url = linkInput.value.trim();
@@ -24,9 +22,9 @@ function addLink() {
       const urlObj = new URL(url);
       const favicon = `https://www.google.com/s2/favicons?domain=${urlObj.hostname}`;
       
-      // Site ismini almak için
+      
       let siteName = urlObj.hostname.replace('www.', '').split('.')[0];
-      // İlk harfi büyük yap
+      
       siteName = siteName.charAt(0).toUpperCase() + siteName.slice(1);
       
       const li = document.createElement('li');
@@ -39,7 +37,7 @@ function addLink() {
       
       const a = document.createElement('a');
       a.href = url;
-      a.textContent = siteName; // URL yerine site ismi
+      a.textContent = siteName; 
       a.target = '_blank';
       
       const deleteBtn = document.createElement('button');

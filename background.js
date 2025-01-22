@@ -1,5 +1,5 @@
 chrome.commands.onCommand.addListener((command) => {
-  if (command === "open-popup") {
+  if (command === "_execute_action") {
     chrome.action.openPopup();
   }
 });
